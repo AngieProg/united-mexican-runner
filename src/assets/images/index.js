@@ -24,6 +24,8 @@ import galeria7 from "./galeria7.jpg";
 import galeria8 from "./galeria8.jpg";
 import galeria9 from "./galeria9.jpg";
 import galeria10 from "./galeria10.jpg";
+import galeria11 from "./galeria11.jpg";
+import galeria12 from "./galeria12.jpg";
 import Adri from "./adrianaF1.jpg";
 import RodolfoGomez from "./rodolfoGomez.jpg";
 
@@ -56,4 +58,6 @@ export {
   galeria8,
   galeria9,
   galeria10,
+  galeria11,
+  galeria12,
 };

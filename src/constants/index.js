@@ -12,6 +12,8 @@ import {
   galeria8,
   galeria9,
   galeria10,
+  galeria11,
+  galeria12,
   evento1,
   evento2,
   evento3,
@@ -113,6 +115,16 @@ export const slideData = [
     img: galeria10,
     alt: "Foto 10",
   },
+  {
+    id: 11,
+    img: galeria11,
+    alt: "Foto 11",
+  },
+  {
+    id: 12,
+    img: galeria12,
+    alt: "Foto 12",
+  },
 ];
 
 export const eventos = [
@@ -145,5 +157,23 @@ export const eventos = [
     id: 6,
     img: evento6,
     alt: "Evento6",
+  },
+];
+
+export const resources = [
+  {
+    title: "Find me on Mastodon",
+    link: "https://indieweb.social/@kendalmintcode",
+    imageUrl: "https://placeimg.com/300/300/any",
+  },
+  {
+    title: "Welcome to K-Tech",
+    link: "https://k-tech.systems",
+    imageUrl: "https://placeimg.com/300/300/animals",
+  },
+  {
+    title: "Some sort of third title",
+    link: "https://indieweb.social/@kendalmintcode",
+    imageUrl: "https://placeimg.com/300/300/architecture",
   },
 ];

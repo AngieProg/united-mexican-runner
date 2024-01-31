@@ -13,14 +13,12 @@ const Contacto = () => {
           <img src={facebookBlack} alt="facebook" className="w-6 h-6" />
           <h3 className="font-lora text-xl font-bold">Facebook</h3>
         </div>
-
         {/* Instagram */}
         <div className="flex gap-5 items-center justify-center">
           <img src={instagramBlack} alt="Instagram" className="w-6 h-6" />
           <h3 className="font-lora text-xl font-bold">Instagram</h3>
         </div>
-
-        {/* Dirección */}
+        {/* Dirección
         <div className="flex gap-5 items-center">
           <img src={gps} alt="gps" className="w-6 h-6" />
           <div className="flex flex-col justify-center">
@@ -30,8 +28,7 @@ const Contacto = () => {
             </p>
           </div>
         </div>
-
-        {/* Telefono */}
+        Telefono
         <div className="flex justify-start items-center gap-5">
           <img src={celular} alt="gps" className="w-6 h-6" />
           <div className="flex flex-col justify-center items-start">
@@ -39,15 +36,14 @@ const Contacto = () => {
             <p className="font-lora text-base">+1 212-661-4959</p>
           </div>
         </div>
-
-        {/* Email */}
+        Email
         <div className="flex justify-start items-center gap-5">
           <img src={celular} alt="gps" className="w-6 h-6" />
           <div className="flex flex-col justify-center items-start">
             <h3 className="font-lora text-xl font-bold">Email</h3>
             <p className="font-lora text-base">unitedmexianrunner@gmail.com</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

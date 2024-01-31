@@ -12,12 +12,12 @@ const Evento = () => {
   // };
 
   return (
-    <div className="flex flex-col justify-center items-center bg-black pt-8">
+    <section className="flex flex-col justify-center items-center bg-black pt-8">
       <h1 className="font-bree text-3.5xl text-white uppercase">
         Principales Eventos
       </h1>
-      <div className="flex justify-center mb-5">
-        <div className="flex justify-center w-full h-[200px] relative items-center md:w-[600px] md:h-[600px]">
+      <div className="flex justify-center mb-3">
+        <div className="flex justify-center w-full h-[180px] relative items-center md:w-[600px] md:h-[600px]">
           {eventos.map((item, idx) => {
             return (
               <img
@@ -49,7 +49,7 @@ const Evento = () => {
           </span>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

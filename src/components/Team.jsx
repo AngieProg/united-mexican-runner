@@ -2,14 +2,14 @@ import { Teams } from "../constants";
 
 const Team = () => {
   return (
-    <div className="bg-black text-white pt-8">
+    <section className="bg-black text-white ">
       {Teams.map((team, index) => {
         return (
-          <div key={index} className="px-5">
+          <div key={index} className="">
             <img
               src={team.image}
               alt={team.nombre}
-              className="h-[250px] w-full"
+              className="h-[200px] w-full"
             />
             <h1 className="text-3.5xl font-bree text-center pt-5 pb-3 uppercase">
               {team.nombre}
@@ -29,7 +29,7 @@ const Team = () => {
           </div>
         );
       })}
-    </div>
+    </section>
   );
 };
 

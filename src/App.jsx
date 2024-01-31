@@ -26,6 +26,7 @@ const App = () => {
       <Team />
       <Galeria />
       <Contacto />
+      <Mensaje />
     </main>
   );
 };

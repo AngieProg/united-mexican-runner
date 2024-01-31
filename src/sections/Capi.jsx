@@ -3,7 +3,7 @@ const Capi = () => {
     <div>
       <div className="flex flex-col items-center justify-evenly bg-bannerCapi bg-cover w-full h-[200px]">
         <h1 className="text-3.5xl text-white font-bree md:text-[75px]">
-          CAPI ALBERTO ORTIZ
+          "CAPI" ALBERTO ORTIZ
         </h1>
       </div>
       <p className="bg-black text-justify text-lora text-xl px-5 py-8 text-white">
