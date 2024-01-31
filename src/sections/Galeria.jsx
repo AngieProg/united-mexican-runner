@@ -13,9 +13,9 @@ const Galeria = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center bg-black">
-      <h1 className="font-bree text-3.5xl">Galeria</h1>
-      <div className="flex justify-center mb-5">
+    <div className="flex flex-col justify-center items-center pt-8 bg-black">
+      <h1 className="font-bree text-3.5xl text-white uppercase">Galeria</h1>
+      <div className="flex justify-center mb-3">
         <div className="flex justify-center w-full h-[400px] relative items-center md:w-[600px] md:h-[600px]">
           <img
             src={flechaIzq}
