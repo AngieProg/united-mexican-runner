@@ -1,4 +1,4 @@
-import { celular, facebookBlack, gps, instagramBlack } from "../assets/icons";
+import { facebookBlack, instagramBlack } from "../assets/icons";
 
 const Contacto = () => {
   return (
@@ -10,12 +10,20 @@ const Contacto = () => {
       <div className="flex flex-col items-start gap-5">
         {/* Facebook */}
         <div className="flex gap-5 items-center justify-center">
-          <img src={facebookBlack} alt="facebook" className="w-6 h-6" />
+          <a href="https://www.facebook.com/profile.php?id=100046928414692&mibextid=9R9pXO">
+            <img
+              src={facebookBlack}
+              alt="facebook"
+              className="w-6 h-6 cursor-pointer"
+            />
+          </a>
           <h3 className="font-lora text-xl font-bold">Facebook</h3>
         </div>
         {/* Instagram */}
         <div className="flex gap-5 items-center justify-center">
-          <img src={instagramBlack} alt="Instagram" className="w-6 h-6" />
+          <a href="https://www.instagram.com/unitedmexicanrunnersny?igsh=NHU5eXdmaXMzOWZ2&utm_source=qr">
+            <img src={instagramBlack} alt="Instagram" className="w-6 h-6" />
+          </a>
           <h3 className="font-lora text-xl font-bold">Instagram</h3>
         </div>
         {/* Dirección

@@ -10,6 +10,8 @@ import flechaIzq from "./flecha-izquierda.png";
 import facebookBlack from "./facebookBlack.png";
 import instagramBlack from "./instagramBlack.png";
 import flecha from "./flecha.png";
+import close from "./close.svg";
+import logoSF from "./logo_sf.png";
 
 export {
   celular,
@@ -24,4 +26,6 @@ export {
   facebookBlack,
   instagramBlack,
   flecha,
+  close,
+  logoSF,
 };

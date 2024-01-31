@@ -12,7 +12,7 @@ import {
 } from "./sections";
 
 import Team from "./components/Team";
-import Carousel from "./components/Carousel";
+// import Carousel from "./components/Carousel";
 import Nav from "./components/Nav";
 
 const App = () => {
@@ -20,7 +20,7 @@ const App = () => {
     <main>
       <Nav />
       <Hero />
-      <Carousel />
+      {/* <Carousel /> */}
       <Mision />
       <Entrenadores />
       <Capi />

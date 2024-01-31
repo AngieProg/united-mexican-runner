@@ -25,6 +25,33 @@ import {
   evento6,
 } from "../assets/images";
 
+export const navLinks = [
+  {
+    href: "#home",
+    label: "Home",
+  },
+  {
+    href: "#mision",
+    label: "Mision",
+  },
+  {
+    href: "#entrenadores",
+    label: "Coach",
+  },
+  {
+    href: "#team",
+    label: "Team",
+  },
+  {
+    href: "#galeria",
+    label: "Galeria",
+  },
+  {
+    href: "#contacto",
+    label: "Contacto",
+  },
+];
+
 export const Teams = [
   {
     nombre: "Platinum Members",
