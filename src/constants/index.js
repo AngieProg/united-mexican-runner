@@ -1,4 +1,7 @@
 import {
+  portada1,
+  portada2,
+  portada3,
   platinum,
   talent,
   elite,
@@ -164,16 +167,16 @@ export const resources = [
   {
     title: "Find me on Mastodon",
     link: "https://indieweb.social/@kendalmintcode",
-    imageUrl: "https://placeimg.com/300/300/any",
+    imageUrl: portada1,
   },
   {
     title: "Welcome to K-Tech",
     link: "https://k-tech.systems",
-    imageUrl: "https://placeimg.com/300/300/animals",
+    imageUrl: portada2,
   },
   {
     title: "Some sort of third title",
     link: "https://indieweb.social/@kendalmintcode",
-    imageUrl: "https://placeimg.com/300/300/architecture",
+    imageUrl: portada3,
   },
 ];

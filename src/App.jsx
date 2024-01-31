@@ -12,11 +12,15 @@ import {
 } from "./sections";
 
 import Team from "./components/Team";
+import Carousel from "./components/Carousel";
+import Nav from "./components/Nav";
 
 const App = () => {
   return (
     <main>
+      <Nav />
       <Hero />
+      <Carousel />
       <Mision />
       <Entrenadores />
       <Capi />

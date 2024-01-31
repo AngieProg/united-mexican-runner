@@ -28,8 +28,14 @@ import galeria11 from "./galeria11.jpg";
 import galeria12 from "./galeria12.jpg";
 import Adri from "./adrianaF1.jpg";
 import RodolfoGomez from "./rodolfoGomez.jpg";
+import portada1 from "./portada1.jpg";
+import portada2 from "./portada2.jpg";
+import portada3 from "./portada3.jpg";
 
 export {
+  portada1,
+  portada2,
+  portada3,
   coachCapi,
   coachCapi2,
   RodolfoGomez,
