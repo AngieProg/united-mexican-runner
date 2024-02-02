@@ -12,6 +12,7 @@ import instagramBlack from "./instagramBlack.png";
 import flecha from "./flecha.png";
 import close from "./close.svg";
 import logoSF from "./logo_sf.png";
+import logoBlanco from "./logo_blanco.png";
 
 export {
   celular,
@@ -19,6 +20,7 @@ export {
   facebook,
   gps,
   hamburguer,
+  logoBlanco,
   instagram,
   flechaDer,
   flechaIzq,

@@ -1,6 +1,7 @@
-import { hamburguer, logoSF, close } from "../assets/icons";
+import { hamburguer, close, logoBlanco } from "../assets/icons";
 import { navLinks } from "../constants";
 import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
 
 const Nav = () => {
   const [toogle, setToogle] = useState(false);
@@ -9,7 +10,7 @@ const Nav = () => {
       <nav className="flex justify-between items-center ma">
         <a href="/">
           <img
-            src={logoSF}
+            src={logoBlanco}
             alt="logo"
             width={30}
             height={30}

@@ -21,8 +21,8 @@ const Entrenadores = () => {
 
   return (
     <section className="flex flex-col justify-center items-center bg-black py-8">
-      <h1 className="text-3.5xl font-bree text-center text-white uppercase mb-5 md:text-[75px]">
-        Conoce a nuestros entrenadores
+      <h1 className="text-3.5xl font-bree text-center px-10 text-white uppercase mb-5 md:text-[75px]">
+        Nuestros Entrenadores
       </h1>
       <Entrenador
         img={coachCapi}
