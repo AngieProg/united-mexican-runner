@@ -2,7 +2,7 @@ import { Teams } from "../constants";
 
 const Team = () => {
   return (
-    <section className="bg-black text-white ">
+    <section className="bg-black text-white" id="team">
       {Teams.map((team, index) => {
         return (
           <div key={index} className="">

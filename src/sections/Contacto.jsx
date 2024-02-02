@@ -2,7 +2,10 @@ import { facebookBlack, instagramBlack } from "../assets/icons";
 
 const Contacto = () => {
   return (
-    <section className="px-8 py-10 flex flex-col justify-center items-center">
+    <section
+      className="px-8 py-10 flex flex-col justify-center items-center"
+      id="contacto"
+    >
       <h1 className="font-bree text-3.5xl mb-3">CONTÁCTANOS</h1>
       <p className="mb-5 text-lora text-xl">
         Dejanos un mesaje y nos pondremos en contacto contigo.

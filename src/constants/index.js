@@ -27,27 +27,27 @@ import {
 
 export const navLinks = [
   {
-    href: "#home",
+    href: "home",
     label: "Home",
   },
   {
-    href: "#mision",
+    href: "mision",
     label: "Mision",
   },
   {
-    href: "#entrenadores",
-    label: "Coach",
+    href: "entrenadores",
+    label: "Entrenadores",
   },
   {
-    href: "#team",
+    href: "team",
     label: "Team",
   },
   {
-    href: "#galeria",
+    href: "galeria",
     label: "Galeria",
   },
   {
-    href: "#contacto",
+    href: "contacto",
     label: "Contacto",
   },
 ];

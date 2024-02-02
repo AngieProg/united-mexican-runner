@@ -1,6 +1,7 @@
 import { flecha } from "../assets/icons";
 import { Adri, RodolfoGomez, coachCapi } from "../assets/images";
 import Button from "../components/Button";
+import { Link } from "react-router-dom";
 
 const Entrenadores = () => {
   const Entrenador = ({ img, nombre, funcion, subfuncion, label }) => (
@@ -15,12 +16,27 @@ const Entrenadores = () => {
       {subfuncion && (
         <h3 className="text-white font-lora mb-3">{subfuncion}</h3>
       )}
-      {label && <Button label={label} icon1={flecha} />}
+      {/* {label && <Button label={label} icon1={flecha} />} */}
+      {/* {label ? (
+        <Link to="/capi" className="text-white bg-pink-700">
+          <Button label={label} icon1={flecha} />
+        </Link>
+      ) : null} */}
+      {label && (
+        <Link to="/capi">
+          <button className="bg-black border-4 border-double text-white p-2">
+            CONÓCELO
+          </button>
+        </Link>
+      )}
     </div>
   );
 
   return (
-    <section className="flex flex-col justify-center items-center bg-black py-8">
+    <section
+      className="flex flex-col justify-center items-center bg-black py-8"
+      id="entrenadores"
+    >
       <h1 className="text-3.5xl font-bree text-center px-10 text-white uppercase mb-5 md:text-[75px]">
         Nuestros Entrenadores
       </h1>
