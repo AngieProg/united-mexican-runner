@@ -1,8 +1,10 @@
 import { Teams } from "../constants";
+import { Link } from "react-router-dom";
+import { flecha } from "../assets/icons";
 
 const Team = () => {
   return (
-    <section className="bg-black text-white" id="team">
+    <section className="bg-black text-white">
       {Teams.map((team, index) => {
         return (
           <div key={index} className="">
@@ -29,6 +31,17 @@ const Team = () => {
           </div>
         );
       })}
+      {/* Boton regresar */}
+      <div className="flex justify-end pr-11">
+        <Link to="/united-mexican-runner/">
+          <button className="bg-black border-4 border-double text-white p-2">
+            <div className="flex gap-5 items-centere justify-between">
+              <h2>REGRESAR</h2>
+              <img src={flecha} alt="flecha" className="w-[20px] h-[20px]" />
+            </div>
+          </button>
+        </Link>
+      </div>
     </section>
   );
 };

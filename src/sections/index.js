@@ -8,6 +8,7 @@ import Contacto from "./Contacto";
 import Banner from "./Banner";
 import Galeria from "./Galeria";
 import Capi from "./Capi";
+import Footer from "./Footer";
 
 export {
   Hero,
@@ -20,4 +21,5 @@ export {
   Entrenadores,
   Contacto,
   Banner,
+  Footer,
 };

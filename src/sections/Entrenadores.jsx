@@ -15,12 +15,6 @@ const Entrenadores = () => {
       {subfuncion && (
         <h3 className="text-white font-lora mb-3">{subfuncion}</h3>
       )}
-      {/* {label && <Button label={label} icon1={flecha} />} */}
-      {/* {label ? (
-        <Link to="/capi" className="text-white bg-pink-700">
-          <Button label={label} icon1={flecha} />
-        </Link>
-      ) : null} */}
       {label && (
         <Link to="/capi">
           <button className="bg-black border-4 border-double text-white p-2">

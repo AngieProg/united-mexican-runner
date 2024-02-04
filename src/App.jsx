@@ -3,12 +3,12 @@ import {
   Mision,
   Evento,
   Mensaje,
-  // TeamSection,
+  TeamSection,
   Entrenadores,
   Banner,
   Contacto,
   Galeria,
-  Capi,
+  Footer,
 } from "./sections";
 
 import Team from "./components/Team";
@@ -23,13 +23,13 @@ const App = () => {
       {/* <Carousel /> */}
       <Mision />
       <Entrenadores />
-      <Capi />
       <Mensaje />
       <Banner />
       <Evento />
-      <Team />
+      <TeamSection />
       <Galeria />
       <Contacto />
+      <Footer />
       <Mensaje />
     </main>
   );

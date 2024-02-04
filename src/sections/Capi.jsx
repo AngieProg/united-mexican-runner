@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom";
+import { flecha } from "../assets/icons";
+
 const Capi = () => {
   return (
-    <div>
+    <div className="h-[100vh] bg-black">
       <div className="flex flex-col items-center justify-evenly bg-bannerCapi bg-cover w-full h-[200px]">
-        <h1 className="text-3.5xl text-white font-bree md:text-[75px]">
+        <h1 className="text-3.5xl text-white font-bree px-7 text-center md:text-[75px]">
           "CAPI" ALBERTO ORTIZ
         </h1>
       </div>
-      <p className="bg-black text-justify text-lora text-xl px-5 py-8 text-white">
+      <p className=" text-justify text-lora text-xl px-10 py-8 text-white">
         Su líder y creador de esta gran familia deportiva Alberto Ortiz, quien
         desde su infancia en sus inicios como corredor en su país natal, México,
         siempre tuvo como pasión el atletismo, en su mente y corazón,
@@ -19,6 +22,17 @@ const Capi = () => {
         los equipos, no solamente en New York, si no de toda la unión americana,
         formando potencialmente United Mexican Runners of New York.
       </p>
+      {/* Boton regresar */}
+      <div className="flex justify-end pr-11">
+        <Link to="/united-mexican-runner/">
+          <button className="bg-black border-4 border-double text-white p-2">
+            <div className="flex gap-5 items-centere justify-between">
+              <h2>REGRESAR</h2>
+              <img src={flecha} alt="flecha" className="w-[20px] h-[20px]" />
+            </div>
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };
