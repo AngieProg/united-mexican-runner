@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { flecha } from "../assets/icons";
+import { flechaRegresar } from "../assets/icons";
 
 const Capi = () => {
   return (
@@ -27,8 +27,12 @@ const Capi = () => {
         <Link to="/united-mexican-runner/">
           <button className="bg-black border-4 border-double text-white p-2">
             <div className="flex gap-5 items-centere justify-between">
+              <img
+                src={flechaRegresar}
+                alt="flecha"
+                className="w-[20px] h-[20px]"
+              />
               <h2>REGRESAR</h2>
-              <img src={flecha} alt="flecha" className="w-[20px] h-[20px]" />
             </div>
           </button>
         </Link>

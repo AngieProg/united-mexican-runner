@@ -30,7 +30,6 @@ const App = () => {
       <Galeria />
       <Contacto />
       <Footer />
-      <Mensaje />
     </main>
   );
 };

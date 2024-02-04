@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const Button = ({ label, icon1, icon2 }) => {
   return (
-    <Link to="entrenadores" smooth={true} spy={true} duration={500}>
+    <Link to="contacto" smooth={true} spy={true} duration={500}>
       <button className="bg-black border-4 border-double text-white p-2">
         <div className="flex justify-between items-center gap-3">
           <h2 className="font-lora">{label}</h2>
