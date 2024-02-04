@@ -1,7 +1,6 @@
-import { flecha } from "../assets/icons";
 import { Adri, RodolfoGomez, coachCapi } from "../assets/images";
-import Button from "../components/Button";
 import { Link } from "react-router-dom";
+import { flecha } from "../assets/icons";
 
 const Entrenadores = () => {
   const Entrenador = ({ img, nombre, funcion, subfuncion, label }) => (
@@ -25,7 +24,10 @@ const Entrenadores = () => {
       {label && (
         <Link to="/capi">
           <button className="bg-black border-4 border-double text-white p-2">
-            CONÓCELO
+            <div className="flex gap-5 items-centere justify-between">
+              <h2>CONÓCELO</h2>
+              <img src={flecha} alt="flecha" className="w-[20px] h-[20px]" />
+            </div>
           </button>
         </Link>
       )}

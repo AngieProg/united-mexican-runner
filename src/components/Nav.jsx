@@ -30,16 +30,9 @@ const Nav = () => {
                 {item.label}
               </Link>
             </li>
-            /* <li key={index}>
-              <a
-                href={item.href}
-                className="font-lora leading-normal md:text-2xl text-lg text-white"
-              >
-                {item.label}
-              </a>
-            </li> */
           ))}
         </ul>
+        {/* <Nav cuando esta en small extendida */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toogle ? close : hamburguer}
@@ -49,23 +42,23 @@ const Nav = () => {
             className="cursor-pointer"
             onClick={() => setToogle((prev) => !prev)}
           />
-
           <div
             className={`${
               toogle ? "flex" : "hidden"
-            } p-6 bg-black absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-lg sidebar`}
+            } py-6 bg-black absolute top-12 right-0  w-full rounded-lg`}
           >
-            <ul className="list-none flex flex-col justify-end items-start flex-1">
+            <ul className="list-none flex flex-col justify-center items-center flex-1">
               {navLinks.map((link, index) => (
-                <li key={index}>
+                <li key={index} className="py-3 uppercase">
                   <Link
                     to={link.href}
                     smooth={true}
                     spy={true}
                     duration={500}
-                    className={`font-lora font-normal text-white cursor-pointer text-[16px] ${
+                    className={`font-lora font-normal text-white  cursor-pointer text-[16px] ${
                       index === navLinks.length - 1 ? "mr-0" : "mb-4"
                     }`}
+                    onClick={() => setToogle(false)}
                   >
                     {link.label}
                   </Link>
