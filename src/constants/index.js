@@ -1,3 +1,4 @@
+import { facebook, instagram } from "../assets/icons";
 import {
   portada1,
   portada2,
@@ -23,6 +24,14 @@ import {
   evento4,
   evento5,
   evento6,
+  gCapi1,
+  gCapi2,
+  gCapi3,
+  gCapi4,
+  gCapi5,
+  gCapi6,
+  gCapi7,
+  gCapi8,
 } from "../assets/images";
 
 export const navLinks = [
@@ -157,6 +166,49 @@ export const slideData = [
   },
 ];
 
+export const slideCapi = [
+  {
+    id: 1,
+    img: gCapi1,
+    alt: "Foto1 Capi",
+  },
+  {
+    id: 2,
+    img: gCapi2,
+    alt: "Foto2 Capi",
+  },
+  {
+    id: 3,
+    img: gCapi3,
+    alt: "Foto3 Capi",
+  },
+  {
+    id: 4,
+    img: gCapi4,
+    alt: "Foto4 Capi",
+  },
+  {
+    id: 5,
+    img: gCapi5,
+    alt: "Foto5 Capi",
+  },
+  {
+    id: 6,
+    img: gCapi6,
+    alt: "Foto6 Capi",
+  },
+  {
+    id: 7,
+    img: gCapi7,
+    alt: "Foto7 Capi",
+  },
+  {
+    id: 8,
+    img: gCapi8,
+    alt: "Foto8 Capi",
+  },
+];
+
 export const eventos = [
   {
     id: 1,
@@ -190,20 +242,29 @@ export const eventos = [
   },
 ];
 
-export const resources = [
+export const portada = [
   {
-    title: "Find me on Mastodon",
-    link: "https://indieweb.social/@kendalmintcode",
-    imageUrl: portada1,
+    id: 1,
+    src: portada1,
+    alt: "portada1",
+    titulo: "UNITED MEXICAN RUNNERS OF NEW YORK",
+    label: "Contáctanos",
+    icon1: facebook,
+    icon2: instagram,
   },
   {
-    title: "Welcome to K-Tech",
-    link: "https://k-tech.systems",
-    imageUrl: portada2,
+    id: 2,
+    src: portada2,
+    alt: "portada2",
+    //titulo: "UNITED MEXICAN RUNNERS OF NEW YORK",
   },
   {
-    title: "Some sort of third title",
-    link: "https://indieweb.social/@kendalmintcode",
-    imageUrl: portada3,
+    id: 3,
+    src: portada3,
+    alt: "portada3",
+    titulo: "    ",
+    label: "Contáctanos",
+    icon1: facebook,
+    icon2: instagram,
   },
 ];

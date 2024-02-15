@@ -11,7 +11,7 @@ const Team = () => {
             <img
               src={team.image}
               alt={team.nombre}
-              className="h-[200px] w-full"
+              className="h-[200px] w-full md:hidden"
             />
             <h1 className="text-3.5xl font-bree text-center pt-5 pb-3 uppercase">
               {team.nombre}
@@ -35,7 +35,7 @@ const Team = () => {
       <div className="flex justify-end pr-11 py-8">
         <Link to="/united-mexican-runner/">
           <button className="bg-black border-4 border-double text-white p-2">
-            <div className="flex gap-5 items-centere justify-between">
+            <div className="flex gap-3 items-centere justify-between">
               <img
                 src={flechaRegresar}
                 alt="flecha"

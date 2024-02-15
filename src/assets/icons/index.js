@@ -13,6 +13,8 @@ import flecha from "./flecha.png";
 import close from "./close.svg";
 import logoSF from "./logo_sf.png";
 import flechaRegresar from "./flechaRegresar.png";
+import flechaEventoI from "./flechaEventoI.png";
+import flechaEventoD from "./flechaEventoD.png";
 import logoBlanco from "./logo_blanco.png";
 
 export {
@@ -26,6 +28,8 @@ export {
   instagram,
   flechaDer,
   flechaIzq,
+  flechaEventoD,
+  flechaEventoI,
   logo,
   facebookBlack,
   instagramBlack,

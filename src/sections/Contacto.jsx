@@ -6,28 +6,34 @@ const Contacto = () => {
       className="px-8 py-10 flex flex-col justify-center items-center"
       id="contacto"
     >
-      <h1 className="font-bree text-3.5xl mb-3">CONTÁCTANOS</h1>
-      <p className="mb-5 text-lora text-xl">
+      <h1 className="font-bree text-3.5xl mb-3 md:text-[75px] md:my-11">
+        CONTÁCTANOS
+      </h1>
+      <p className="mb-4 text-lora text-xl md:text-3xl">
         Dejanos un mesaje y nos pondremos en contacto contigo.
       </p>
-      <div className="flex flex-col items-start gap-5">
+      <div className="flex flex-col items-start gap-4">
         {/* Facebook */}
         <div className="flex gap-5 items-center justify-center">
           <a href="https://www.facebook.com/profile.php?id=100046928414692&mibextid=9R9pXO">
             <img
               src={facebookBlack}
               alt="facebook"
-              className="w-6 h-6 cursor-pointer"
+              className="w-6 h-6 cursor-pointer md:w-[50px] md:h-[50px]"
             />
           </a>
-          <h3 className="font-lora text-xl font-bold">Facebook</h3>
+          <h3 className="font-lora text-xl font-bold md:text-3xl">Facebook</h3>
         </div>
         {/* Instagram */}
         <div className="flex gap-5 items-center justify-center">
           <a href="https://www.instagram.com/unitedmexicanrunnersny?igsh=NHU5eXdmaXMzOWZ2&utm_source=qr">
-            <img src={instagramBlack} alt="Instagram" className="w-6 h-6" />
+            <img
+              src={instagramBlack}
+              alt="Instagram"
+              className="w-6 h-6 md:w-[50px] md:h-[50px]"
+            />
           </a>
-          <h3 className="font-lora text-xl font-bold">Instagram</h3>
+          <h3 className="font-lora text-xl font-bold md:text-3xl">Instagram</h3>
         </div>
         {/* Dirección
         <div className="flex gap-5 items-center">

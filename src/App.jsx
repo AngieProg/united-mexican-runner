@@ -9,18 +9,18 @@ import {
   Contacto,
   Galeria,
   Footer,
+  HeroSlider,
 } from "./sections";
 
-import Team from "./components/Team";
-// import Carousel from "./components/Carousel";
 import Nav from "./components/Nav";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   return (
     <main>
       <Nav />
-      <Hero />
-      {/* <Carousel /> */}
+      <HeroSlider />
+      {/* <Hero /> */}
       <Mision />
       <Entrenadores />
       <Mensaje />

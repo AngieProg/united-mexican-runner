@@ -9,8 +9,10 @@ import Banner from "./Banner";
 import Galeria from "./Galeria";
 import Capi from "./Capi";
 import Footer from "./Footer";
+import HeroSlider from "./HeroSlider";
 
 export {
+  HeroSlider,
   Hero,
   Mision,
   Mensaje,

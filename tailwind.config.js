@@ -41,6 +41,7 @@ export default {
       },
       backgroundImage: {
         hero: "url('assets/images/portada1.jpg')",
+        heroLarge: "url('assets/images/portada1_large.jpg')",
         hero2: "url('assets/images/portada2.jpg')",
         hero3: "url('assets/images/portada3.jpg')",
         platinum: "url('assets/images/platinum.jpg')",
@@ -48,6 +49,7 @@ export default {
         bannerNutricion: "url('assets/images/nutricion.jpg')",
         bannerContacto: "url('assets/images/contacto.jpg')",
         bannerCapi: "url('assets/images/coach_capi2.jpg')",
+        bannerEquipo: "url('assets/images/talent.jpg')",
       },
       screens: {
         wide: "1440px",

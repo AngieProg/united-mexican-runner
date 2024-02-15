@@ -31,8 +31,24 @@ import RodolfoGomez from "./rodolfoGomez.jpg";
 import portada1 from "./portada1.jpg";
 import portada2 from "./portada2.jpg";
 import portada3 from "./portada3.jpg";
+import gCapi1 from "./galeria_capi1.jpg";
+import gCapi2 from "./galeria_capi2.jpg";
+import gCapi3 from "./galeria_capi3.jpg";
+import gCapi4 from "./galeria_capi4.jpg";
+import gCapi5 from "./galeria_capi5.jpg";
+import gCapi6 from "./galeria_capi6.jpg";
+import gCapi7 from "./galeria_capi7.jpg";
+import gCapi8 from "./galeria_capi8.jpg";
 
 export {
+  gCapi1,
+  gCapi2,
+  gCapi3,
+  gCapi4,
+  gCapi5,
+  gCapi6,
+  gCapi7,
+  gCapi8,
   portada1,
   portada2,
   portada3,

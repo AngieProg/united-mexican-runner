@@ -14,7 +14,7 @@ const Nav = () => {
             alt="logo"
             width={30}
             height={30}
-            className="md:w-[40px] md:h-[40px]"
+            className="md:w-[50px] md:h-[50px]"
           />
         </a>
         <ul className="sm:flex flex-1 justify-center items-center sm:gap-16 hidden ">
