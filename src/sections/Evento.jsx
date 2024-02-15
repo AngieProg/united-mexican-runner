@@ -33,12 +33,12 @@ const Evento = () => {
       </h1>
 
       <div className="flex justify-center w-full h-[180px] relative items-center md:h-auto">
-        <img
+        {/*<img
           src={flechaEventoD}
           alt="flecha izquierda"
           className="absolute md:left-[30px] w-[30px] h-[30px] left-[20px] cursor-pointer md:w-[80px] md:h-[80px] "
           onClick={prevSlide}
-        />
+        />*/}
         <div className="mb-5">
           {eventos.map((item, idx) => {
             return (
@@ -55,13 +55,13 @@ const Evento = () => {
             );
           })}
         </div>
-        <img
+        {/* <img
           src={flechaEventoI}
           alt="flecha derecha"
           className="absolute w-[30px] h-[30px] right-[30px] cursor-pointer md:w-[80px] md:h-[80px]"
           onClick={nextSlide}
-        />
-        <span className="flex absolute bottom-[20px]">
+        /> */}
+        {/* <span className="flex absolute bottom-[20px]">
           {eventos.map((_, idx) => {
             return (
               <button
@@ -75,7 +75,7 @@ const Evento = () => {
               ></button>
             );
           })}
-        </span>
+        </span> */}
       </div>
     </section>
   );

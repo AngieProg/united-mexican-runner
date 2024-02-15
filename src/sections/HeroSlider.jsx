@@ -54,7 +54,7 @@ const HeroSlider = () => {
           </div>
         );
       })}
-      <div className="flex justify-center relative bottom-10">
+      {/* <div className="flex justify-center relative bottom-10">
         <span className="flex absolute bottom-[35px] md:bottom-[70px]">
           {portada.map((_, idx) => {
             return (
@@ -70,7 +70,7 @@ const HeroSlider = () => {
             );
           })}
         </span>
-      </div>
+      </div> */}
     </div>
   );
 };
